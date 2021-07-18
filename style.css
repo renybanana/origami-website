@@ -1,0 +1,59 @@
+h1{
+    color:mediumslateblue;
+font-size:45px;
+margin-left: 450px;
+}
+.intro{
+    background-color:#A283B5;
+    justify-content: space-between;
+    display:flex;
+    
+}
+.games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.each{
+    border:#a283b5;
+    border-width: 20px;
+    padding: 20px;
+    justify-content: space-evenly;
+    position:relative;
+
+}
+.each p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-40%,-40%);
+    color:mediumslateblue;  
+    opacity:0;
+    
+    
+}
+.intro a{
+    margin-left:40px;
+    
+}
+a:visited{
+    color:mediumslateblue;
+}
+link{
+    color:mediumslateblue; 
+    margin-left: 300px;
+}
+.each:hover p{
+    opacity:1;
+
+}
+.each:hover img{
+    opacity: 0.3;
+}
+h2{
+    color:mediumslateblue;
+    margin-left: 400px;  
+}
+body{
+   background-color: thistle; 
+}
